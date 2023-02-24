@@ -11,7 +11,7 @@
 
 ### Usage of Code
 
-  After generating the top topics for the corpus, we computed a coherence score to determine the usefulness of the output. We also computed perplexity, which is a measure of how good the model is. Finally, to get a better idea of the most frequently discussed topics, we created visualizations including an intertopic distance map to display any overlap in topics and its strength in the overall corpus. We also created a chart with the top-30 most salient terms used, which also indicates which words belong to which topic.  
+  After generating the top topics for the corpus, we computed a coherence score to determine the usefulness of the output. To get a better idea of the most frequently discussed topics, we created visualizations including an intertopic distance map to display any overlap in topics and its strength in the overall corpus. We also created a chart with the top-30 most salient terms used, which also indicates which words belong to which topic.  
 
 ## Data 
 
