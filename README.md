@@ -29,6 +29,10 @@ Data Dictionary
 The data set was relatively small, which resulted in not a lot of data for the topic modeling to process. This is particularly important for the analysis of eras in American history, as shorter eras contained less data and therefore lower coherence scores in topic modeling.
 
 ## Figures 
+Table of Contents
+|Figure|Key Takeaways| 
+|-----------|----------------------------------------------------------------------------------------------|---------------|
+|Wordcloud of All Text  |Some words should be removed.|
 
 ## References
 [1] A. Prokop, “The State of the Union Address’s history, explained,” Vox, Feb. 6, 2023. [Online]. Available: https://www.vox.com/2015/1/20/7854969/biden-state-of-the-union-address-history. [Accessed: Feb. 9, 2023].  
