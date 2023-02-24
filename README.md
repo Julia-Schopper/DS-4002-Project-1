@@ -33,7 +33,10 @@ Table of Contents
 |Figure     |Key Takeaways| 
 |-------------------------------------------------|--------------------------------------------------------------------------------------------------|
 |Wordcloud of All Text                            | Some words should be removed including 'shall', 'applause', 'nation', 'year', 'must', 'world', 'u', and'y'. |
-|Figure 1 Topic 1 for All State of the Union Text | Words.                        
+|Figure 1 Topic 1 for All State of the Union Text | Global commerce is the most frequent topic discussed in the State of the Union addresses as a whole.|
+|Figure 2 Topic 2 for All State of thte Union Text| The U.S. economy is the second most frequent topic discussed in the State of the Union addresses as a whole. |
+|Figure 3 Topic 3 for All State of the Union Text | Domestic spending (transportation, government programs, etc.) is the third most frequent topic discussed in the State of the Union addresses as a whole.|
+
 
 ## References
 [1] A. Prokop, “The State of the Union Address’s history, explained,” Vox, Feb. 6, 2023. [Online]. Available: https://www.vox.com/2015/1/20/7854969/biden-state-of-the-union-address-history. [Accessed: Feb. 9, 2023].  
