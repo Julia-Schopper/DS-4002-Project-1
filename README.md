@@ -32,7 +32,7 @@ The data set was relatively small, which resulted in not a lot of data for the t
 Table of Contents
 |Figure     |Key Takeaways| 
 |-------------------------------------------------|--------------------------------------------------------------------------------------------------|
-|Wordcloud of All Text                            | Some words should be removed.                                                                    |
+|Wordcloud of All Text                            | Some words should be removed including 'Shall', 'Applause', 'U', and 'Y', .                                                      |
 |Figure 1 Topic 1 for All State of the Union Text | Words.                        
 
 ## References
