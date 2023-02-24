@@ -30,9 +30,10 @@ The data set was relatively small, which resulted in not a lot of data for the t
 
 ## Figures 
 Table of Contents
-|Figure|Key Takeaways| 
-|-----------|----------------------------------------------------------------------------------------------|---------------|
-|Wordcloud of All Text  |Some words should be removed.|
+|Figure     |Key Takeaways| 
+|-------------------------------------------------|--------------------------------------------------------------------------------------------------|
+|Wordcloud of All Text                            | Some words should be removed.                                                                    |
+|Figure 1 Topic 1 for All State of the Union Text | Words.                        
 
 ## References
 [1] A. Prokop, “The State of the Union Address’s history, explained,” Vox, Feb. 6, 2023. [Online]. Available: https://www.vox.com/2015/1/20/7854969/biden-state-of-the-union-address-history. [Accessed: Feb. 9, 2023].  
