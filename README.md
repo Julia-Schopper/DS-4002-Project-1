@@ -5,9 +5,9 @@
 ## SRC 
 ### Installing/Building Code
   We accessed the data set through Kaggle and read it using Google Colab. The data set is a CSV file containing State of the Union addresses for the years 1790-2019. We utilized LDA and nltk packages to process the corpus. 
-  We first removed punctuation and converted the text to lowercase. We then joined the text together into a string to create a word cloud of the most commonly used words in all of the addresses.  
-  We used topic modeling to determine the top topics discussed for the addresses as a whole, and for eras of American history including the New Nation (1790-1815), Nation Expansion and Reform (1816-1860), Civil War and Reconstruction (1861-1877), the Rise of Industrial America (1878-1900), Progressive Era (1901-1928), Great Depression and World War II (1929-1945), and the Post War/Modern Era (1946-2019)[4]. Analysis of the State of the Union addresses as a whole and different eras allows us to make comparisons and account for changes.   
-  For the entire corpus and for the different eras, we conducted the following process. First we tokenized the data to separate the sentences into words without punctuation. We then created a list of stop words to remove from the data set to improve the topic modeling. We then created a porter stemmer to account for variations in similar words. We then compiled the speech documents into a list and tokenized the speeches. Next, we cleaned and tokenized each document string, removed stop words from the tokens, stemmed the tokens, and then added the tokens to the list. Using this list, we turned our tokenized documents into an ID/term dictionary. We then filtered out extreme words to exclude tokens that appear in less than 5 speeches or in above 50% of speeches. We converted the tokenized documents into a document-term matrix. We used the corpus to geenrate the LDA model and found the top 3 topics from that corpus.  
+  We first removed punctuation and converted the text to lowercase. We then joined the text together into a string to create a word cloud of the most commonly used words in all of the addresses [4].  
+  We used topic modeling to determine the top topics discussed for the addresses as a whole, and for eras of American history including the New Nation (1790-1815), Nation Expansion and Reform (1816-1860), Civil War and Reconstruction (1861-1877), the Rise of Industrial America (1878-1900), Progressive Era (1901-1928), Great Depression and World War II (1929-1945), and the Post War/Modern Era (1946-2019)[5]. Analysis of the State of the Union addresses as a whole and different eras allows us to make comparisons and account for changes.   
+  For the entire corpus and for the different eras, we conducted the following process. First we tokenized the data to separate the sentences into words without punctuation. We then created a list of stop words to remove from the data set to improve the topic modeling. We then created a porter stemmer to account for variations in similar words. We then compiled the speech documents into a list and tokenized the speeches. Next, we cleaned and tokenized each document string, removed stop words from the tokens, stemmed the tokens, and then added the tokens to the list. Using this list, we turned our tokenized documents into an ID/term dictionary. We then filtered out extreme words to exclude tokens that appear in less than 5 speeches or in above 50% of speeches. We converted the tokenized documents into a document-term matrix. We used the corpus to geenrate the LDA model and found the top 3 topics from that corpus [6].  
 
 ### Usage of Code
 
@@ -26,7 +26,7 @@ Data Dictionary
 [Link to data](Data/state_ofthe_union_texts.csv)
 
 ### Relevant Notes about the Use of Data
-The data set was relatively small for topic modeling, which resulted in minimal data for the topic modeling to process. This is particularly important for the analysis of eras in American history, as shorter eras contained less data and therefore lower coherence scores in topic modeling.
+The data set was relatively small, which resulted in not a lot of data for the topic modeling to process. This is particularly important for the analysis of eras in American history, as shorter eras contained less data and therefore lower coherence scores in topic modeling.
 
 ## Figures 
 
@@ -34,7 +34,9 @@ The data set was relatively small for topic modeling, which resulted in minimal 
 [1] A. Prokop, “The State of the Union Address’s history, explained,” Vox, Feb. 6, 2023. [Online]. Available: https://www.vox.com/2015/1/20/7854969/biden-state-of-the-union-address-history. [Accessed: Feb. 9, 2023].  
 [2] “State of the union address: US House of Representatives: History, Art & Archives,” US House of Representatives [Online]. Available: https://history.house.gov/Institution/SOTU/State-of-the-Union/. [Accessed: Feb. 9, 2023].  
 [3] R. Elving, “As the nation has changed, so has the State of the Union speech,” National Public Radio, Feb. 4, 2023. [Online]. Available: https://npr.org/2023/02/04/1154134314/state-of-the-union-address-2023-history. [Accessed: Feb. 9, 2023].  
-[4]
+[4] S. Kapadia. "Topic Modeling in Python: Latent Dirichlet Allocation (LDA)." Medium. https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0 (retrieved Feb. 19, 2023).
+[5] ERAS
+[6] J. Barber. "Latent Dirichlet Allocation (LDA) with Python." AmazonAWS. https://rstudio-pubs-static.s3.amazonaws.com/79360_850b2a69980c4488b1db95987a24867a.html (retrieved Feb. 19, 2023).
 
 ### Links to MI1 and MI2
 [MI1](https://docs.google.com/document/d/1-gNGJVQLpVzO9EekcbVrqv9PvzNYCDZYVpXvTuxJwJ8/edit?usp=sharing)  
